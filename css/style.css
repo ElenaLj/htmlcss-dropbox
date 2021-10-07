@@ -33,27 +33,36 @@ header {
     /* max-width: 1170px; */
 }
 
+#logo {
+    width: 15%; 
+}
+
+header > nav {
+    width: 35%;
+}
+
+#login {
+    width: 15%;
+}
+
 /* *** debug *** */
 .debug header {
     border: 1px solid black;
 }
 
 .debug #logo {
-    width: 10%;
     height: 100px;
     background-color: blue;
 }
 
 .debug .nav-1, 
 .debug .nav-2 {
-    width: 40%;
     height: 100px;
     border: 1px solid white;
     background-color: green;
 }
 
 .debug #login {
-    width: 10%;
     height: 100px;
     background-color: aquamarine;
 }
