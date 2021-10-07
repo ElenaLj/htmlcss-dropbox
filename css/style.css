@@ -31,22 +31,49 @@ header {
     height: 100px;
     background-color: white;
     /* max-width: 1170px; */
+    line-height: 100px;
+    text-align: center;
 }
 
 #logo {
     width: 15%; 
 }
 
+#logo img {
+    height: 35px;
+    vertical-align: middle;
+}
+
 header > nav {
     width: 35%;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: black;
+    vertical-align: middle;
+    text-decoration: none;
 }
 
 #login {
     width: 15%;
 }
 
+#login .btn {
+    width: 60px;
+    height: 30px;
+    color: white;
+    background-color: #0061ff;
+    border: none;
+}
+
 /* *** debug *** */
-.debug header {
+/* .debug header {
     border: 1px solid black;
 }
 
@@ -65,4 +92,4 @@ header > nav {
 .debug #login {
     height: 100px;
     background-color: aquamarine;
-}
+} */
