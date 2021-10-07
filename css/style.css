@@ -42,14 +42,18 @@ header {
     /* max-width: 1170px; */
     line-height: 100px;
     text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 #logo {
-    width: 15%; 
+    width: 10%;
+    margin-left: 5px; 
 }
 
 #logo img {
-    height: 35px;
+    height: 25px;
     vertical-align: middle;
 }
 
@@ -70,7 +74,7 @@ header nav ul li a {
 }
 
 #login {
-    width: 15%;
+    width: 5%;
     text-align: left;
 }
 
@@ -84,7 +88,8 @@ header nav ul li a {
 /* *** jumbotron *** */
 .jumbotron {
     width: 100%;
-    height: 700px;
+    height: 800px;
+    padding-top: 100px;
     background: linear-gradient(#b4d0e7 0%, #b4d0e7 95%, white 5%);
 }
 
@@ -102,6 +107,12 @@ h1 {
 .jumbotron .text {
     width: 35%;
     padding-right: 110px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.text p:nth-of-type(2) {
+    font-size: 14px;
 }
 
 .jumbotron .btn {
@@ -113,7 +124,7 @@ h1 {
 }
 
 #arrow {
-    margin: 10px 0;
+    margin: 30px 0;
     font-size: 40px;
 }
 
