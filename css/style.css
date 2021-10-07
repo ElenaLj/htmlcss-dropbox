@@ -25,6 +25,15 @@ body {
     float: right;
 }
 
+/* *** buttons sets *** */
+.btn {
+    height: 30px;
+    color: white;
+    background-color: #0061ff;
+    border: none;
+}
+
+
 /* *** header *** */
 header {
     width: 100%;
@@ -67,11 +76,24 @@ header nav ul li a {
 
 #login .btn {
     width: 60px;
-    height: 30px;
     color: white;
     background-color: #0061ff;
     border: none;
 }
+
+/* *** jumbotron *** */
+.jumbotron {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(#b4d0e7 0%, #b4d0e7 80%, white 40%);
+}
+
+.jumbotron .btn {
+    width: 200px;
+}
+
+
+
 
 /* *** debug *** */
 /* .debug header {
