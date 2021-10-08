@@ -146,6 +146,18 @@ h1 {
     margin-top: 200px;
 }
 
+.main-container .circle {
+    height: 50px;
+}
+
+.main-container .col {
+    width: calc(100% / 3 - 100px);
+}
+
+.colonne .col:nth-of-type(2) {
+    margin: 0 50px;
+}
+
 
 /* *** debug *** */
 /* .debug header {
@@ -172,4 +184,15 @@ h1 {
 .debug .prezzi {
     background-color: lightyellow;
     height: 1000px;
+}
+
+.debug .circle {
+    background-color: mediumpurple;
+    border: 1px solid black;
+}
+
+.debug .col {
+    background-color: mediumvioletred;
+    border: 1px solid black;
+    height: 300px;
 }
