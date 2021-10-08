@@ -34,6 +34,10 @@ body {
     padding: 5px 15px;
 }
 
+#large.btn {
+    width: 250px;
+}
+
 
 /* *** header *** */
 header {
@@ -214,13 +218,17 @@ section > p, .plan span {
 }
 
 .main-container .col-content, .info {
-    padding: 0 25px;
+    padding: 0 30px;
 }
 
 .main-container .colonne hr {
     color: lightgray;
     width: 20%;
     margin: 25px 0;
+}
+
+.col-content .plan a {
+    color: #0061ff;;
 }
 
 .info > p {
