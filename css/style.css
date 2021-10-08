@@ -193,21 +193,21 @@ h1 {
     background-color: aquamarine;
 } */
 
-.debug .prezzi {
+/* .debug .prezzi {
     background-color: lightyellow;
     height: 1000px;
-}
+} */
 
 .debug .circle {
     background-color: mediumpurple;
     border: 1px solid black;
 }
 
-.debug .col {
+/* .debug .col {
     background-color: mediumvioletred;
     border: 1px solid black;
     height: 300px;
-}
+} */
 
 .debug .row {
     height: 150px;
