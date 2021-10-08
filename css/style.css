@@ -98,7 +98,7 @@ header nav ul li a {
 }
 
 .jumbo-container {
-    width: 75%;
+    width: 80%;
     max-width: 1280px;
     margin: 0 auto;
     position: relative;
@@ -107,7 +107,7 @@ header nav ul li a {
 
 h1 {
     padding-bottom: 50px;
-    font-size: 62px;
+    font-size: 65px;
 }
 
 .jumbotron .text {
@@ -139,6 +139,13 @@ h1 {
     width: 100%;
 }
 
+/* *** main *** */
+.main-container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
 
 /* *** debug *** */
 /* .debug header {
@@ -161,3 +168,8 @@ h1 {
     height: 100px;
     background-color: aquamarine;
 } */
+
+.debug .prezzi {
+    background-color: lightyellow;
+    height: 1000px;
+}
