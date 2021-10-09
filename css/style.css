@@ -9,6 +9,15 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+main .subtitles{
+    font-size: 30px;
+    margin-bottom: 30px
+}
+
+a {
+    color: #0061ff;
+    font-size: 13px;
+}
 /* *** clearfix e float *** */
 
 .clearfix::after {
@@ -25,10 +34,7 @@ body {
     float: right;
 }
 
-main .subtitles{
-    font-size: 30px;
-    margin-bottom: 40px
-}
+
 
 
 /* *** buttons sets *** */
@@ -274,10 +280,6 @@ section > p, .plan span {
     font-size: 13px;
 }
 
-.col-content .plan a {
-    color: #0061ff;;
-}
-
 .info > p {
     margin: 25px 0;
 }
@@ -326,7 +328,12 @@ main div .card img {
 .caption #underline {
     text-decoration: underline;
 }
+ 
+/* *** main-bottom *** */
 
+main .main-bottom {
+    width: 45%; 
+}
 
 /* *** debug *** */
 /* .debug header {
@@ -404,4 +411,8 @@ main div .card img {
 .debug .card .caption {
     height: 150px;
     background-color: turquoise;
+} */
+
+/* .debug .main-bottom {
+    background-color: violet;
 } */
