@@ -224,7 +224,7 @@ section > p, .plan span {
 .main-container .colonne hr {
     color: lightgray;
     width: 20%;
-    margin: 25px 0;
+    margin: 25px 25px;
 }
 
 .col-content .plan a {
@@ -275,7 +275,7 @@ section > p, .plan span {
     height: 300px;
 } */
 
-.debug .row {
+/* .debug .row {
     height: 150px;
     background-color: orange;
-}
+} */
