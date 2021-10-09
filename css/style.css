@@ -25,6 +25,12 @@ body {
     float: right;
 }
 
+main .subtitles{
+    font-size: 30px;
+    margin-bottom: 40px
+}
+
+
 /* *** buttons sets *** */
 .btn {
     /* height: 30px; */
@@ -289,6 +295,28 @@ section > p, .plan span {
     margin-left: 5%;
 }
 
+/* +** sezione cards *** */
+
+main .main-container .dropbox-cards {
+    width: 100%;
+}
+
+main .main-container .card {
+    width: calc(100% / 3 - 40px);
+    margin-bottom: 50px;
+}
+
+div .card:nth-child(3n+2) {
+    margin: 0 60px;
+  }
+
+main div .card img {
+    width: 100%;
+}
+
+.caption #underline {
+    text-decoration: underline;
+}
 
 
 /* *** debug *** */
@@ -346,4 +374,25 @@ section > p, .plan span {
 .debug .foto-text {
     height: 300px;
     background-color: lightseagreen;
+} */
+
+/* .debug .dropbox-cards {
+    height: 50px;
+    background-color: lime;
+}
+
+.debug .card {
+    height: 300px;
+    background-color: magenta;
+    border: 1px solid black;
+}
+
+.debug .card .pic {
+    height: 150px;
+    background-color: coral;
+}
+
+.debug .card .caption {
+    height: 150px;
+    background-color: turquoise;
 } */
