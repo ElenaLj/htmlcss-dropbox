@@ -165,7 +165,7 @@ h1 {
 }
 
 #arrow {
-    margin: 30px 0;
+    /* margin: 30px 0; */
     font-size: 40px;
 }
 
@@ -270,7 +270,7 @@ section > p, .plan span {
     padding: 0 30px;
 }
 
-.main-container .colonne hr {
+main hr {
     color: lightgray;
     width: 20%;
     margin: 25px 25px;
@@ -333,6 +333,51 @@ main div .card img {
 
 main .main-bottom {
     width: 45%; 
+}
+
+main .box-container {
+    margin-top: 50px;
+    width: 100%;
+}
+
+main .box-sx {
+    width: 30%;
+}
+
+main .box-centr {
+    width: 40%;
+}
+
+main .box-dx {
+    width: 30%;
+}
+/* *** format box *** */
+
+.box {
+    height: 50%;
+    width: 50%;
+}
+
+main .box-container .box-sx,
+main .box-container .box-centr, 
+main .box-container .box-dx {
+    height: 400px;
+}
+
+
+main .box-container .company {
+    width: 100%;
+    padding: 30px;
+    /* filter: invert(); */
+}
+
+main .box-centr {
+    height: 400px;
+}
+
+main .box-centr #centre {
+    width: 250px;
+    padding: 30px;
 }
 
 /* *** debug *** */
@@ -415,4 +460,17 @@ main .main-bottom {
 
 /* .debug .main-bottom {
     background-color: violet;
+} */
+
+/* main .box-container {
+    height: 400px;
+    background-color: gray;
+} */
+
+/* main .box-sx {
+    background-color: steelblue;
+} */
+
+/* main .box-dx {
+    background-color: goldenrod;
 } */
