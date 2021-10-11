@@ -618,3 +618,8 @@ footer .footer-menu {
     background-color: magenta;
     border: 1px solid black;
 }
+
+.debug .footer-menu .title {
+    height: 50px;
+    background-color: mediumslateblue;
+}
