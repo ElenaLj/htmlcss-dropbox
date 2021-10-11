@@ -493,10 +493,26 @@ footer .footer-container {
 
 footer .footer-menu {
     width: calc(100% / 5 - 36px);
+    margin: 100px 0;
+    color: white;
 }
 
 .footer-menu:not(:first-child):not(:last-child) {
-    margin: 0 30px;
+    margin: 100px 30px;
+}
+
+footer .title h4 {
+    font-size: 25px;
+}
+
+footer .footer-menu ul li {
+    margin: 10px 0;
+    list-style: none;
+}
+
+footer .footer-menu ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* .faq section h2 {
@@ -608,7 +624,7 @@ footer .footer-menu {
     background-color: blue;
 } */
 
-.debug .footer-container {
+/* .debug .footer-container {
     height: 200px;
     background-color: lightpink;
 }
@@ -622,4 +638,4 @@ footer .footer-menu {
 .debug .footer-menu .title {
     height: 50px;
     background-color: mediumslateblue;
-}
+} */
