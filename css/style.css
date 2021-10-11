@@ -20,7 +20,7 @@ main .subtitles{
 
 a {
     color: #0061ff;
-    font-size: 13px;
+    font-size: 15px;
 }
 /* *** clearfix e float *** */
 
@@ -48,7 +48,7 @@ a {
     font-size: 13px;
     background-color: #0061ff;
     border: none;
-    padding: 5px 15px;
+    padding: 8px 15px;
 }
 
 .btn:hover {
@@ -57,6 +57,8 @@ a {
 
 #large.btn {
     width: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 .custom-btn {
@@ -75,6 +77,7 @@ a {
 #clear.btn {
     width: 100%;
     color: black;
+    font-size: 15px;
     background-color: white;
     border: none;
 }
@@ -168,14 +171,16 @@ h1 {
 
 .text p:nth-of-type(2) {
     font-size: 14px;
+    margin: 10px 0;
 }
 
 .jumbotron .btn {
-    width: 200px;
+    width: 250px;
+    margin-top: 25px;
 }
 
 #arrow {
-    /* margin: 30px 0; */
+    margin: 20px 0;
     font-size: 40px;
 }
 
@@ -196,7 +201,16 @@ h1 {
 
 .plan section h2 {
     font-size: 35px;
-    margin: 30px 0;
+    margin: 25px 0;
+}
+
+.plan section p:first-of-type {
+    font-size: 20px;
+}
+
+.plan section p:nth-of-type(2) {
+    color: lightslategray;
+    margin-bottom: 40px;
 }
 
 /* *** format circles *** */
@@ -238,13 +252,14 @@ h1 {
 
 .main-container .colonne {
     margin: 25px 0;
+    min-height: 1028px;
 }
 
 .main-container .col {
     width: calc(100% / 3 - 33.3333px);
     border: 1px solid lightgray;
     /* height: 900px; */
-    min-height: 100%;
+    height: 100%;
 }
 
 .main-container .row {
@@ -259,19 +274,27 @@ h1 {
 /* *** format colonne *** */
 .plan > section,
 .plan > div,
-.info
-.row section > h3, p {
-    margin: 20px 0;
+.info,
+.row section h2, h3, p {
+    margin-bottom: 15px;
 }
 
 section > p, .plan span {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .icon {
     border-bottom: 1px solid lightgray;
     text-align: center;
     padding: 8px 0;
+}
+
+.plan span,
+.info p span {
+    display: inline-block;
+    width: 85%;
+    margin-left: 3px;
+    vertical-align: text-top;
 }
 
 .col .col-content,
@@ -298,6 +321,10 @@ main hr {
     color: #0061ff;
 }
 
+.prezzi .row section {
+    margin-top: 50px;
+}
+
 /* *** sezione foto main *** */
 .main-container .content-middle {
     margin: 100px 0;
@@ -316,6 +343,12 @@ main hr {
     margin-left: 5%;
 }
 
+.foto-text p {
+    line-height: 1.6;
+    font-size: 15px;
+    margin: 30px 0;
+}
+
 /* +** sezione cards *** */
 
 main .main-container .dropbox-cards {
@@ -329,7 +362,11 @@ main .main-container .card {
 
 div .card:nth-child(3n+2) {
     margin: 0 60px;
-  }
+}
+
+div .card .pic {
+    margin-bottom: 20px;
+}
 
 main div .card img {
     width: 100%;
@@ -377,7 +414,7 @@ main .box-container .box-dx {
 
 
 main .box-container .company {
-    width: 100%;
+    width: 80%;
     padding: 30px;
     position: absolute;
     top: 50%;
@@ -482,7 +519,6 @@ main .main-container .faq li .fa-chevron-down {
 /* *** footer *** */
 
 footer {
-    width: 100%;
     background-color: black;
 }
 
@@ -503,11 +539,13 @@ footer .footer-menu {
 }
 
 footer .title h4 {
+    margin-bottom: 25px;
     font-size: 25px;
 }
 
 footer .footer-menu ul li {
     margin: 10px 0;
+    font-size: 15px;
     list-style: none;
 }
 
@@ -517,7 +555,7 @@ footer .footer-menu ul li:hover {
 }
 
 footer hr {
-    width: 10%;
+    width: 10vw;
     height: 1px;
     color: white;
 }
