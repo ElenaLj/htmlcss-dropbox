@@ -479,6 +479,26 @@ main .main-container .faq li .fa-chevron-down {
     margin-left: 300px;
 }
 
+/* *** footer *** */
+
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+footer .footer-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer .footer-menu {
+    width: calc(100% / 5 - 36px);
+}
+
+.footer-menu:not(:first-child):not(:last-child) {
+    margin: 0 30px;
+}
+
 /* .faq section h2 {
     font-size: 35px;
 } */
@@ -587,3 +607,14 @@ main .main-container .faq li .fa-chevron-down {
     height: 200px;
     background-color: blue;
 } */
+
+.debug .footer-container {
+    height: 200px;
+    background-color: lightpink;
+}
+
+.debug .footer-menu {
+    height: 200px;
+    background-color: magenta;
+    border: 1px solid black;
+}
