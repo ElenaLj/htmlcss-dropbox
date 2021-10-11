@@ -114,7 +114,7 @@ header nav ul li {
     margin: 0 25px;
 }
 
-li:hover {
+header li:hover {
     border-bottom: 2px solid #0061ff;
 }
 
@@ -463,6 +463,25 @@ main .main-container .faq {
     width: 100%;
 }
 
+#full_line {
+    width: 100%;
+    color: lightgray;
+    margin: 30px 0;
+}
+
+main .main-container .faq li {
+    font-weight: 600;
+    list-style: none;
+}
+
+main .main-container .faq li .fa-chevron-down {
+    margin-left: 300px;
+}
+
+/* .faq section h2 {
+    font-size: 35px;
+} */
+
 /* *** debug *** */
 /* .debug header {
     border: 1px solid black;
@@ -563,7 +582,7 @@ main .main-container .faq {
     background-color: aquamarine;
 } */
 
-.debug .faq {
+/* .debug .faq {
     height: 200px;
     background-color: blue;
-}
+} */
