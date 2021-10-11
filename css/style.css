@@ -461,6 +461,7 @@ main .blue-row .row-btn {
 /* *** sezione faq *** */
 main .main-container .faq {
     width: 100%;
+    margin-bottom: 150px;
 }
 
 #full_line {
