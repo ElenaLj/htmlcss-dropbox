@@ -356,6 +356,7 @@ main .box-dx {
 .box {
     height: 50%;
     width: 50%;
+    position: relative;
 }
 
 main .box-container .box-sx,
@@ -368,16 +369,55 @@ main .box-container .box-dx {
 main .box-container .company {
     width: 100%;
     padding: 30px;
-    /* filter: invert(); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
 }
 
 main .box-centr {
     height: 400px;
+    background-color: #f5f5f5;
 }
 
 main .box-centr #centre {
     width: 250px;
     padding: 30px;
+}
+
+#cube_1 {
+    background-color: #a3d49d;
+    border: 5px solid #d1eace;
+}
+
+#cube_2 {
+    background-color: #610227;
+}
+
+#cube_3 {
+    background-color: #0094cf;
+}
+
+#cube_4 {
+    background-color: #ff1616;
+}
+
+#cube_6 {
+    background-color: 
+    #d60019;
+}
+
+#cube_7 {
+    background-color: #b5d1e8;
+}
+
+#cube_8 {
+    background-color: #051f82;
+}
+
+#cube_9 {
+    background-color: #ffd92c;
 }
 
 /* *** debug *** */
