@@ -191,7 +191,7 @@ h1 {
 .main-container {
     width: 70%;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .plan section h2 {
@@ -274,7 +274,7 @@ section > p, .plan span {
     padding: 8px 0;
 }
 
-.col .col-content, 
+.col .col-content,
 .col .info,
 .row section {
     padding: 0 30px;
@@ -338,11 +338,11 @@ main div .card img {
 .caption #underline {
     text-decoration: underline;
 }
- 
+
 /* *** main-bottom *** */
 
 main .main-bottom {
-    width: 45%; 
+    width: 45%;
 }
 
 main .box-container {
@@ -370,7 +370,7 @@ main .box-dx {
 }
 
 main .box-container .box-sx,
-main .box-container .box-centr, 
+main .box-container .box-centr,
 main .box-container .box-dx {
     height: 400px;
 }
@@ -418,7 +418,7 @@ main .box-centr p {
 }
 
 #cube_6 {
-    background-color: 
+    background-color:
     #d60019;
 }
 
@@ -455,8 +455,14 @@ main #row-text {
 
 main .blue-row .row-btn {
     width: 30%;
-    margin: 100px;
+    margin: 120px;
 }
+
+/* *** sezione faq *** */
+main .main-container .faq {
+    width: 100%;
+}
+
 /* *** debug *** */
 /* .debug header {
     border: 1px solid black;
@@ -556,3 +562,8 @@ main .blue-row .row-btn {
     height: 100px;
     background-color: aquamarine;
 } */
+
+.debug .faq {
+    height: 200px;
+    background-color: blue;
+}
