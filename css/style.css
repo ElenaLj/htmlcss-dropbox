@@ -18,6 +18,12 @@ main .subtitles{
     margin-bottom: 30px;
 }
 
+main hr {
+    color: lightgray;
+    width: 20%;
+    margin: 25px 25px;
+}
+
 a {
     color: #0061ff;
     font-size: 15px;
@@ -38,12 +44,8 @@ a {
     float: right;
 }
 
-
-
-
 /* *** buttons sets *** */
 .btn {
-    /* height: 30px; */
     color: white;
     font-size: 13px;
     background-color: #0061ff;
@@ -88,7 +90,6 @@ header {
     height: 100px;
     background-color: white;
     border-bottom: 2px solid lightgray;
-    /* max-width: 1170px; */
     line-height: 96px;
     text-align: center;
     position: fixed;
@@ -98,7 +99,6 @@ header {
 }
 
 #logo {
-    /* width: 10%; */
     margin-left: 10px;
 }
 
@@ -106,10 +106,6 @@ header {
     height: 25px;
     vertical-align: text-bottom;
 }
-
-/* header > nav {
-    width: 35%;
-} */
 
 header nav ul li {
     display: inline-block;
@@ -123,13 +119,11 @@ header li:hover {
 
 header nav ul li a {
     color: black;
-    /* vertical-align: middle; */
     text-decoration: none;
     display: inline-block;
 }
 
 #login {
-    /* width: 5%; */
     margin-right: 10px;
 }
 
@@ -161,20 +155,11 @@ header nav ul li a {
   display: block;
 }
 
-/* #login .btn {
-    width: 60px;
-    color: white;
-    background-color: #0061ff;
-    border: none;
-} */
-
 /* *** jumbotron *** */
 .jumbotron {
     width: 100%;
-    /* height: 800px; */
     padding-top: 100px;
     background-color: #b4d0e7;
-    /* background: linear-gradient(#b4d0e7 0%, #b4d0e7 95%, white 5%); */
 }
 
 .jumbo-container {
@@ -227,6 +212,79 @@ h1 {
     margin-top: 150px;
 }
 
+/* *** format classe circle *** */
+.main-container .circle {
+    height: 50px;
+    line-height: 30px;
+}
+
+.circle span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.circle span::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#mo::before {
+    width: 10px;
+    height: 10px;
+    border: 3px solid #0061ff;
+}
+
+#yr::before {
+    width: 13px;
+    height: 13px;
+    border: 1px solid lightgray;
+}
+
+/* *** format colonne  e row *** */
+.main-container .colonne {
+    margin: 25px 0;
+}
+
+.main-container .col {
+    width: calc(100% / 3 - 33.3333px);
+    border: 1px solid lightgray;
+    min-height: 1028px;
+}
+
+.main-container .row {
+    border: 1px solid lightgray;
+    height: 250px;
+}
+
+.colonne .col:nth-of-type(2) {
+    margin: 0 50px;
+}
+
+/* *** content colonne e row *** */
+.icon {
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.col .col-content,
+.col .info,
+.row section {
+    padding: 0 30px;
+}
+
+.plan > section,
+.plan > div,
+.info,
+.row section h2, h3, p {
+    margin-bottom: 15px;
+}
+
 .plan section h2 {
     font-size: 35px;
     margin: 25px 0;
@@ -241,80 +299,12 @@ h1 {
     margin-bottom: 40px;
 }
 
-/* *** format circles *** */
-.main-container .circle {
-    height: 50px;
-    line-height: 30px;
+.plan > p {
+    font-size: 13px;
 }
 
-.circle span {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-
-.circle span::before {
-    width: 10px;
-    height: 10px;
-    margin-right: 5px;
-    content: "";
-    display: inline-block;
-    background-color: white;
-    border-radius: 50%;
-    vertical-align: middle;
-}
-
-#mo::before {
-    border: 3px solid #0061ff;
-}
-
-#yr::before {
-    width: 13px;
-    height: 13px;
-    border: 1px solid lightgray;
-}
-
-.main-container .prezzi .colonne {
-    height: 950px;
-}
-
-.main-container .colonne {
-    margin: 25px 0;
-    min-height: 1028px;
-}
-
-.main-container .col {
-    width: calc(100% / 3 - 33.3333px);
-    border: 1px solid lightgray;
-    /* height: 900px; */
-    height: 100%;
-}
-
-.main-container .row {
-    border: 1px solid lightgray;
-    height: 250px;
-}
-
-.colonne .col:nth-of-type(2) {
-    margin: 0 50px;
-}
-
-/* *** format colonne *** */
-.plan > section,
-.plan > div,
-.info,
-.row section h2, h3, p {
-    margin-bottom: 15px;
-}
-
-section > p, .plan span {
+.plan span, section > p {
     font-size: 14px;
-}
-
-.icon {
-    border-bottom: 1px solid lightgray;
-    text-align: center;
-    padding: 8px 0;
 }
 
 .plan span,
@@ -323,22 +313,6 @@ section > p, .plan span {
     width: 85%;
     margin-left: 3px;
     vertical-align: text-top;
-}
-
-.col .col-content,
-.col .info,
-.row section {
-    padding: 0 30px;
-}
-
-main hr {
-    color: lightgray;
-    width: 20%;
-    margin: 25px 25px;
-}
-
-.plan > p {
-    font-size: 13px;
 }
 
 .info > p {
@@ -353,7 +327,7 @@ main hr {
     margin-top: 50px;
 }
 
-/* *** sezione foto main *** */
+/* *** sezione foto middle main *** */
 .main-container .content-middle {
     margin: 100px 0;
 }
@@ -361,6 +335,7 @@ main hr {
 .main-container .foto {
     width: 50%;
 }
+
 .foto img {
     width:  100%;
 }
@@ -378,7 +353,6 @@ main hr {
 }
 
 /* +** sezione cards *** */
-
 main .main-container .dropbox-cards {
     width: 100%;
 }
@@ -405,11 +379,11 @@ main div .card img {
 }
 
 /* *** main-bottom *** */
-
 main .main-bottom {
     width: 45%;
 }
 
+/* *** sezione box colorati *** */
 main .box-container {
     margin-top: 50px;
     width: 100%;
@@ -426,13 +400,6 @@ main .box-centr {
 main .box-dx {
     width: 30%;
 }
-/* *** format box *** */
-
-.box {
-    height: 50%;
-    width: 50%;
-    position: relative;
-}
 
 main .box-container .box-sx,
 main .box-container .box-centr,
@@ -440,6 +407,12 @@ main .box-container .box-dx {
     height: 400px;
 }
 
+/* *** format box *** */
+.box {
+    height: 50%;
+    width: 50%;
+    position: relative;
+}
 
 main .box-container .company {
     width: 80%;
@@ -501,7 +474,6 @@ main .box-centr p {
 
 
 /* *** blue row *** */
-
 main .blue-row {
     width: 100%;
     height: 300px;
@@ -542,6 +514,19 @@ main .main-container .faq li {
 
 main .main-container .faq li .fa-chevron-down {
     margin-left: 325px;
+}
+
+/* *** dropdown faq *** */
+.dropdown-content p {
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1.6;
+    padding: 20px 15px;
+}
+
+.faq ul li, .dropdown-content p:hover {
+    cursor: pointer;
 }
 
 /* *** footer *** */
@@ -592,23 +577,11 @@ footer #lingua {
     filter: invert(1);
     margin: 50px 0;
 }
+
 i button {
     margin: 0 5px;
     font-family: 'Open Sans', sans-serif;
     border: none;
-}
-
-/* *** dropdown footer *** */
-
-.dropdown-content p {
-    display: block;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 1.6;
-    padding: 20px 15px;
-}
-
-.faq ul li, .dropdown-content p:hover {
     cursor: pointer;
 }
 
