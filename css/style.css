@@ -133,7 +133,7 @@ header nav ul li a {
     margin-right: 10px;
 }
 
-/* *** dropdown *** */
+/* *** dropdown header *** */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -541,7 +541,7 @@ main .main-container .faq li {
 }
 
 main .main-container .faq li .fa-chevron-down {
-    margin-left: 300px;
+    margin-left: 325px;
 }
 
 /* *** footer *** */
@@ -596,6 +596,20 @@ i button {
     margin: 0 5px;
     font-family: 'Open Sans', sans-serif;
     border: none;
+}
+
+/* *** dropdown footer *** */
+
+.dropdown-content p {
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1.6;
+    padding: 20px 15px;
+}
+
+.faq ul li, .dropdown-content p:hover {
+    cursor: pointer;
 }
 
 /* .faq section h2 {
